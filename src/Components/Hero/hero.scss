@@ -1,0 +1,193 @@
+.boxes {
+    padding: 0 20px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes__left {
+    display: flex;
+    align-items: end;
+}
+
+.boxes__left1 {
+    width: 500px;
+    padding: 7% 0;
+
+    .boxes__left1--p {
+        font-family: "Public Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.16em;
+        text-align: left;
+        color: #A58054;
+        margin: 0;
+    }
+
+    .boxes__left1--title {
+        font-family: "PT Serif";
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .boxes__left1--text {
+        color: #646464;
+        font-family: "Poppins";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: -8px;
+        width: 450px;
+    }
+
+    .boxes__left1--box {
+        margin: 30px 0;
+
+        .left1__box--span {
+            color: #B69874;
+            font-family: "Poppins";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 0;
+        }
+
+        .left1__box--sum {
+            color: #1B3544;
+            font-family: "Poppins";
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 39px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 0;
+        }
+    }
+
+    .boxes__left1--btn {
+        font-family: "Poppins";
+        font-size: 16px;
+        color: white;
+        background-color: #1B3544;
+        border: none;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 12px 27px;
+        cursor: pointer;
+        transition: 0.3s all ease;
+
+        &:hover {
+            background-color: #081720;
+        }
+    }
+}
+
+.boxes__right {
+    background-image: url("../img/Group\ 1683.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 77%;
+    width: 550px;
+    z-index: 0;
+
+    .boxes__right--img {
+        width: 400px;
+        margin: 70px 0 0 100px;
+    }
+
+    .boxes__right--box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 245px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 5px rgba(34, 60, 80, 0.2);
+        position: absolute;
+        top: 500px;
+        z-index: 1;
+        background-color: white;
+
+        .right__box--text {
+            font-family: "Poppins";
+            color: #1B3544;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: left;            
+        }
+
+        .right__box--bir {
+            width: 25px;
+            height: 25px;
+            background-color: #26394A;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .right__box--ikki {
+            width: 25px;
+            height: 25px;
+            background-color: #F5DCDC;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .right__box--uch {
+            width: 25px;
+            height: 25px;
+            background-color: #A58054;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .right__box--tort {
+            width: 25px;
+            height: 25px;
+            background-color: #F6C461;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
+
+.boxes__right1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .boxes__right--box {
+        text-align: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        .right__box--img {
+            background-image: url("../img/Group\ 1683.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90%;
+        }
+
+        .right__box--title {
+            width: 110px;
+            margin: 7px;
+        }
+    }
+
+    .boxes__right--strelka {
+        cursor: pointer;
+    }
+}
