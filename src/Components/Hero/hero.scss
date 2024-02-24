@@ -1,13 +1,20 @@
 .boxes {
     padding: 0 20px;
-    height: 600px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
+    .container {
+        max-width: 1400px;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .boxes__left {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .boxes__left1 {
@@ -126,7 +133,7 @@
             font-weight: 500;
             line-height: 21px;
             letter-spacing: 0em;
-            text-align: left;            
+            text-align: left;
         }
 
         .right__box--bir {
